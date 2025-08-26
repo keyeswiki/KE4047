@@ -9,7 +9,21 @@ Arduino是一款开源电子原型平台，旨在为艺术家、设计师、爱�
 
 ![](media/1d865072eec42f996d8295f69973d872.png)  
 
-## 3. 测试代码（测试软件版本：arduino-1.8.12）  
+## 3. 测试代码
+
+- 下载资料：[Arduino](./Arduino.7z)  
+
+- 打开Arduino IDE，选择“项目”，选择“导入库”，再选择“添加.ZIP库”。
+
+  ![](./media/image-20250818094853286.png)
+
+- 找到下载资料的存放位置，打开文件夹找到库文件，选择要导入的库，点击“打开”。
+
+  ![](./media/image-20250818095147892.png)
+
+- 安装成功出现的界面。
+
+  ![](./media/image-20250818095210856.png)
 
 ```cpp  
 #include <Wire.h>  
@@ -50,7 +64,7 @@ void loop(void) {
     Serial.print("C: "); Serial.print(c, DEC);  
     Serial.println(" ");  
 }  
-```  
+```
 
 ## 4. 代码说明  
 
